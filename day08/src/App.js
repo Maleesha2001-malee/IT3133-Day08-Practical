@@ -4,7 +4,7 @@ import Home from "./Coponents/Home";
 import Contact from "./Coponents/ContactUs";
 import About from "./Coponents/AboutUs";
 import Login from './coponents/Login';
-import Dasboard from './coponents/Dashboard';
+import Dashboard from './coponents/Dashboard';
 
 function App() {
   return (
@@ -15,12 +15,16 @@ function App() {
              <li><Link to='/home'>Home</Link></li>
              <li><Link to='/about'>About</Link></li>
              <li><Link to='/contact'>Contact</Link></li>
+             <li><Link to='/login'>Login</Link></li>
+             <li><Link to='/dash'>DashBoard</Link></li>
           </ul>
         </nav>
         <Routes>
           <Route path='/home' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/contact' element={<Contact/>}/>
+          <Route path='/login' element={<Login/>}/>
+          <Route path='/dash' element={<Dashboard/>}/>
 
         </Routes>
       </Router>
