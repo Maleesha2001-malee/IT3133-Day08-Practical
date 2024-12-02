@@ -32,6 +32,20 @@ src/ ├── Components/ │ ├── Home.js # Home Page Component │ ├�
 
 ![Screenshot (718)](https://github.com/user-attachments/assets/69511bb1-3669-462b-baea-9808ee2270a3)
 
+# React Router Demo Application with Login and Dashboard
+
+This project demonstrates the use of React Router for navigation and includes a login page with basic authentication. Once authenticated, the user is redirected to a Dashboard page.
+
+## Output
+
+- **Login Page**
+   
+![Screenshot (719)](https://github.com/user-attachments/assets/48369ad9-3327-4a7d-bb8f-b6c97815d969)
+
+- **DashBoard Page**
+
+![Screenshot (721)](https://github.com/user-attachments/assets/9e1b75a7-f581-435f-b152-4553f65361ab)
+
 
 
 
