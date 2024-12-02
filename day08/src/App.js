@@ -3,6 +3,8 @@ import {BrowserRouter as Router,Routes,Route,Link,NavLink} from 'react-router-do
 import Home from "./Coponents/Home";
 import Contact from "./Coponents/ContactUs";
 import About from "./Coponents/AboutUs";
+import Login from './coponents/Login';
+import Dasboard from './coponents/Dashboard';
 
 function App() {
   return (
