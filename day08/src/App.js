@@ -1,10 +1,10 @@
 import './App.css';
-import {BrowserRouter as Router,Routes,Route,Link,NavLink} from 'react-router-dom';
+import {BrowserRouter as Router,Routes,Route,Link} from 'react-router-dom';
 import Home from "./Coponents/Home";
 import Contact from "./Coponents/ContactUs";
 import About from "./Coponents/AboutUs";
-import Login from './coponents/Login';
-import Dashboard from './coponents/Dashboard';
+import Login from './Coponents/Login';
+import Dashboard from './Coponents/Dashboard';
 
 function App() {
   return (

@@ -5,8 +5,9 @@ export default function Login(){
     const navigate = useNavigate();
     const [user,setUser]= useState({username:'',pwd:'',error:''})
     const getTextInput =(e)=>{
+        const {name,Value} = e.target;
         setUser((prevUser)=>({
-            ...prevUser,[name]:CSSMathValue,
+            ...prevUser,[name]:Value,
         }))
     }
 
@@ -27,10 +28,14 @@ export default function Login(){
                     <td><input type ="text" name="username" onChange={getTextInput}/></td>
                 </tr>
                 <tr>
+                    <td>Password:</td>
+                    <td><input type ="password" name="pwd" onChange={getTextInput}/></td>
+                </tr>
+                <tr>
                     <td style={{ color: 'red' }} colSpan={2}>{user.error}</td>
                 </tr>
             </table>
-            <button onClick={aunthenticate}>Login</button>
+            <button onClick={authenticate}>Login</button>
         </div>
     );
 }
