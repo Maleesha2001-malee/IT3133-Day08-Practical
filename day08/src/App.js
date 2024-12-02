@@ -1,4 +1,5 @@
 import './App.css';
+import {BrowserRouter as Router,Routes,Route,Link,NavLink} from 'react-router-dom';
 import Home from "./Coponents/Home";
 import Contact from "./Coponents/ContactUs";
 import About from "./Coponents/AboutUs";
